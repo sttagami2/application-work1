@@ -55,6 +55,12 @@ group :test do
 	gem 'faker'
 	gem 'shoulda-matchers'
 	gem 'rails-controller-testing'
+  gem 'rspec-rails'
+  gem "factory_bot_rails"
+  gem 'rspec-parameterized'
+  gem 'faker'
+  gem 'shoulda-matchers'
+  gem 'rails-controller-testing'
 end
 
 group :development do
@@ -68,3 +74,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'rb-readline'
